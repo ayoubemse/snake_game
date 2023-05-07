@@ -4,6 +4,17 @@ There is a single main file named snake.py
 to run the game you should run the following command : 
 > python3 snake.py
 
+Prerequisites : 
+first you should install python from here : 
+https://www.python.org/downloads/
+
+then, if you don't have pip installed, you should install it using the following command : 
+https://pip.pypa.io/en/stable/installation/
+
+and finally, install pygame library : 
+
+> pip install pygame
+
 the game starts by choosing the difficulty. three levels are availble : 
   - easy : the snake moves slowly and there are no borders
   - medium : the snake moves faster and if you hit the borders you loose
