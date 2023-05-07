@@ -1,5 +1,5 @@
 # snake_game
-This is a simple snake game developed in python3.
+This is a simple snake game developed in python3 using pygame library.
 There is a single main file named snake.py
 to run the game you should run the following command : 
 > python3 snake.py
