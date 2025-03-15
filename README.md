@@ -1,27 +1,24 @@
-# snake_game
-This is a simple snake game developed in python3 using pygame library.
-There is a single main file named snake.py
-to run the game you should run the following command : 
-> python3 snake.py
+# 🐍 Snake Game
 
-Prerequisites : 
-first you should install python from here : 
-https://www.python.org/downloads/
+## 🎮 Overview
+This is a **classic Snake game** developed in **Python 3** using the **Pygame** library.  
+Control the snake, eat food to grow longer, and avoid crashing into yourself or the walls (depending on the difficulty level).  
 
-then, if you don't have pip installed, you should install it using the following command : 
-https://pip.pypa.io/en/stable/installation/
+---
 
-and finally, install pygame library : 
+## 🚀 How to Run the Game
 
-> pip install pygame
+1. **Make sure you have Python installed**  
+   👉 Download it from [here](https://www.python.org/downloads/).  
 
-the game starts by choosing the difficulty. three levels are availble : 
-  - easy : the snake moves slowly and there are no borders
-  - medium : the snake moves faster and if you hit the borders you loose
-  - hard : similar to medium but with increased speed
- 
- the game ends in two cases : 
-  - if the snake bites itself
-  - if the snake hits the borders (medium and hard levels)
- 
- when the game ends, you could either restart from where you finished or quit the game. when you quit the game, your score is displayed on the screen before quitting.
+2. **Install `pip` (if not already installed)**  
+   👉 Follow the official guide [here](https://pip.pypa.io/en/stable/installation/).  
+
+3. **Install the required dependencies (Pygame)**  
+   Run the following command in your terminal:  
+   ```bash
+   pip install pygame
+4. run the game : 
+```bash
+python3 snake.py
+```
